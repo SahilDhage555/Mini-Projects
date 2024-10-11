@@ -1,0 +1,122 @@
+.main{
+    width: 300px;
+    border: 1px solid;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+.title span{
+    color: rgb(36, 184, 243);
+}
+.form{
+    width: 250px;
+    margin: 0 auto;
+    padding: 0;
+    border: 2px solid rgb(59, 176, 223);
+    text-align: center;
+    border-radius: 10px;
+}
+form input{
+    width: 190px;
+    height: 20px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.addBtn{
+    width: 50px;
+    padding: 5px;
+    height: 30px;
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.list{
+    height: 200px;
+    /* width: 80%; */
+    overflow-y: auto;
+    margin: 15px auto ;
+}
+
+.itemList{
+    margin: 10px auto;
+}
+
+.itemList li{
+    width: 190px;
+    list-style: none;
+    padding: 5px;
+    background-color: rgb(173, 214, 250);
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    border-radius: 10px;
+    overflow-wrap: anywhere;
+}
+
+.itemList li span::first-letter{
+    text-transform: uppercase;
+}
+
+.checkBtn{
+    margin: 3px ;
+    padding: 1px 2px;
+    color: black;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+}
+.checkBtn:hover{
+    color: green;
+    border-radius: 50%;
+    border: 1.5px solid green;
+}
+
+.checked{
+    text-decoration: line-through;
+}
+.unChecked{
+    text-decoration: none;
+}
+
+.deleteBtn{
+    margin: 3px ;
+    border: none;
+    padding: 1px 2px;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    font-size: 15px;
+}
+.deleteBtn:hover{
+    color: red;
+    border-radius: 50%;
+    border: 1.5px solid red;
+}
+
+.clearBtn button{
+    background-color: black;
+    color: white;
+    border: 2px solid skyblue;
+    border-radius: 8px;
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.clearBtn button:hover{
+    background-color: crimson;
+}
