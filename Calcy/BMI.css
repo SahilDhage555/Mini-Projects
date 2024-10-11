@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+main{
+    height: 60vmin;
+    width: 50vmin;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid black ;
+    border-radius: 10px;
+    background-color: #B8F3FF;
+}
+.title{
+    height: 13vmin;
+    width: 90%;
+    padding: 15px;
+}
+#hed{
+    padding: 15px;
+    text-shadow: 0px 15px 5px orange;
+}
+#full{
+    color: grey;
+}
+.content{
+    height: 30vmin;
+    padding: 10px 0px;
+}
+.data{
+    height: 10vmin;
+    margin: 5px 0px;
+}
+.data input{
+    border: none;
+    border-bottom: 2px solid black;
+    width: 8vmin;
+    height: 30px;
+    text-align: center;
+    font-size: large;
+    margin-left: 70px;
+    background-color: transparent;
+}
+input:focus-within{
+    outline: none;
+}
+.sp1{
+    font-size: x-large;
+}
+.btn{
+    width: 100px;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #63768D;
+    border: none;
+    font-size: larger;
+    color: white;
+    border-radius: 10px;
+}
+
+hr{
+    margin: 4px 0px;
+    background-color: black;
+}
+#status{
+    padding: 5px;
+    color: purple;
+}
